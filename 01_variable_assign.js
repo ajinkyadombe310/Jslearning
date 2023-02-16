@@ -1,0 +1,20 @@
+console.log("*******//STEP FIRST//*******");
+var myFullName;
+console.log(myFullName);
+myFullName="Mohit Sharma";
+console.log(myFullName);
+myFullName="Mohit Rajesh Sharma";
+console.log(myFullName);
+console.log("*******//STEP SECOND//*******");
+var myLove="I Love JS";
+console.log(myLove);
+console.log("*******//STEP THIRD//********");
+var firstName="Mohit";
+var lastName="Sharma";
+var age="30";
+var address="Pune";
+var pincode="410501";
+var gender="Male";
+var isMarried="Yes";
+console.log(firstName, lastName, age, address, pincode, gender, isMarried);
+

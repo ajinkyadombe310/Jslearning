@@ -1,0 +1,22 @@
+console.log("******Assignment 2 on typeOf******");
+console.log("Step:1");
+var bankName;
+console.log("type of bankName datatype is:", typeof bankName,",", "Value:", bankName);
+bankName = "SBI Bank"
+console.log("Step:2");
+var marks ="90%";
+console.log("type of marks datatype is:", typeof marks);
+console.log("Step:3");
+var isWorking;
+console.log("before initialization:", isWorking);
+isWorking = true;
+console.log("after initialization:", isWorking);
+console.log("Step:3.1");
+console.log("datatype of isWorking variable is:", typeof isWorking);
+console.log("Step:4");
+var totalCount = "Hundred and Seven";
+console.log("Step:4.1");
+console.log("type of datatype is:", typeof totalCount,",", "value of totalCounnt is:", totalCount);
+console.log("Step:4.2");
+totalCount = 107;
+console.log("type of datatype is:", typeof totalCount,",", "value of totalCounnt is:", totalCount);

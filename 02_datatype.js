@@ -1,0 +1,13 @@
+var age = 31;
+var weight = 65;
+var myName = "Mohit Sharma";
+var isMarried = true;
+var isLazy = false;
+console.log("tyep of variable age is:", typeof age);
+console.log("tyep of variable weight is:", typeof weight);
+console.log("tyep of variable isMarried is:", typeof isMarried);
+console.log("tyep of variable isLazy is:", typeof isLazy);
+var lastName;
+console.log("type of name", typeof lastName);
+lastName = null;
+console.log("type of lastname", typeof lastName);

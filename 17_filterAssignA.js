@@ -1,0 +1,16 @@
+const arrayNumbers = [20, 11, 40, 25, 37, 49, 9, 90, 60, 2, 19];
+console.log(`****Greater than 50****`);
+const greaterThanFifty = arrayNumbers.filter(element => element>50);
+console.log(greaterThanFifty);
+console.log(`****Even number****`);
+const evenNumbers = arrayNumbers.filter(element => element%2 ==0);
+console.log(evenNumbers);
+console.log(`****Odd number****`);
+const oddNumbers = arrayNumbers.filter(element => element%2 != 0);
+console.log(oddNumbers);
+console.log(`****Multiple of Five****`);
+const multipleoffiveNumbers = arrayNumbers.filter(element => element%5 == 0);
+console.log(multipleoffiveNumbers);
+console.log(`****Inbetween 20 and 50****`);
+const inBetween = arrayNumbers.filter(element => element >20 && element<50);
+console.log(inBetween);
